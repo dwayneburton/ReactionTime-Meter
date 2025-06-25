@@ -1,1 +1,2 @@
-# ReactionTime-Meter
+# ReactionTime Meter
+ARM Cortex-M3 project built in Keil µVision and written in ARMv7 Assembly for the NXP LPC1768 microcontroller. Measures user reaction time by blinking an LED after a pseudo-random delay and timing the response via a push-button interrupt. Integrates a linear-feedback shift register (LFSR) for random delay generation, bitwise LED multiplexing, memory-mapped I/O, and subroutine-driven modularity for delay loops, polling, and LED control.
